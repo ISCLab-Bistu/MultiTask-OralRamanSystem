@@ -28,10 +28,10 @@ Backbone includes AlexNet,GoogleNet, ResNet50 and Transformer, and users load th
 <details open>
 <summary>Supported backbone network</summary>
 
-- [x] [AlexNet](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/tree/main/models/backbones/alexnet.py)
-- [x] [GoogleNet](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/tree/main/models/backbones/googlenet.py)
-- [x] [ResNet50](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/tree/main/models/backbones/resnet50.py)
-- [x] [Transformer](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/tree/main/models/backbones/transformer.py)
+- [x] [AlexNet](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/blob/master/rmsm/models/backbones/alexnet.py)
+- [x] [GoogleNet](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/blob/master/rmsm/models/backbones/googlenet.py)
+- [x] [ResNet50](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/blob/master/rmsm/models/backbones/resnet50.py)
+- [x] [Transformer](https://github.com/ISCLab-Bistu/MultiTask-OralRamanSystem/blob/master/rmsm/models/backbones/transformer.py)
 
 </details>
 
