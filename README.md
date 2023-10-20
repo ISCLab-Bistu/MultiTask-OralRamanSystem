@@ -1,13 +1,17 @@
 # MultiTask-OralRamanSystem
 ## Introduction
 
-MultiTask-OralRamanSystem包含了四种多任务口腔癌智能诊断模型。该研究已发表在Elsevier的《Journal of Molecular Structure》杂志上。
-本研究旨在改进AlexNet，GoogleNet，ResNet50以及Transformer等四个经典的神经网络模型来实现多任务分类，以准确诊断肿瘤患者的TNM分期和病理分类。
-该模型能够提取共享拉曼光谱特征，同时实现T分期、N分期和病理分型的多任务诊断，从而为癌症患者的个体化治疗提供准确的诊断信息。
+The Multitask-Oracle ramansystem includes four multi-task oral cancer intelligent diagnosis models. 
+The study has been published in Elsevier's Journal of Molecular Structure.
+
+This study aims to improve four classical neural network models, including AlexNet, GoogleNet, ResNet50 and Transformer, to realize multi-task classification to accurately diagnose TNM staging and pathological classification of tumor patients.
+
+The model can extract the shared Raman spectral features, and realize the multi-task diagnosis of T stage, N stage and pathological classification at the same time, so as to provide accurate diagnostic information for individualized treatment of cancer patients.
 
 ## Models
-在我们的模型中，我们将模型修改为三个组件:Backbone、Neck和Head。Backbone执行特征提取，Neck执行全局池化，Head实现多任务分类。
-backbone、neck和head组件在我们的分类器模块中分别实现，四个经典的网络模型图如下所示。
+In our model, we modify the model into three components :Backbone, Neck, and Head. Backbone performs feature extraction, Neck performs global pooling, and Head implements multi-task classification.
+
+The backbone, neck, and head components are implemented separately in our classifier module, and the four classical network model diagrams are shown below.
 
 MTN-AlexNet network model:
 ![img.png](imgs/model/alexnet.png)
