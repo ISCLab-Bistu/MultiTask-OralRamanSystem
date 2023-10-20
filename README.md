@@ -19,6 +19,7 @@ MTN-ResNet50 network model:
 ![img.png](imgs/model/resnet50.png)
 
 MTN-Transformer network model:
+
 ![img.png](imgs/model/transformer.png)
 
 ### Backbone
